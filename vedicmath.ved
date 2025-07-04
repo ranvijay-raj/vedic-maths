@@ -1,0 +1,66 @@
+#increases number by one
+सूत्र एकाधिकेन(अंक){
+    फल अंक+1;
+}
+
+# decreases number by one
+सूत्र एकन्यूनेन(अंक){
+    फल अंक-1;
+}
+
+#checks whether the number is even
+सूत्र संख्या_युग्म(अंक){
+    फल (अंक % 2 == 0);
+}
+
+#checks whether the number is odd
+सूत्र संख्या_अयुग्म(अंक){
+    फल (अंक % 2 != 0);
+}
+
+#divides one number from other
+सूत्र संख्या_भाग(dividend, divisor){
+    फल (dividend/divisor);
+}
+
+#calculates simple amount of simple intrest
+सूत्र मिश्रधन(म,द,स){
+  फल म+(म*द*स/१००);
+}
+
+#increases a number with a power of other
+सूत्र घातक(base, exponent){
+  मान answer = base;
+  चक्र(मान अ = ०; अ < exponent-1; अ = अ+ १){
+    answer = answer*base;
+  }
+  फल (answer);
+}
+
+#reciprocals a number
+सूत्र परस्परम(number){
+  फल 1/number;
+}
+
+#returns the factor of the number
+सूत्र गुणक(number){
+  मान factor = [];
+  चक्र(मान अ = 1; अ <= number; अ = अ+ १){
+    यदि (number%अ == 0) {
+       factor.आगम(अ);
+    }
+  }
+  फल (factor);
+}
+
+#checks whether the number is prime or not
+सूत्र अभाज्य_संख्या(number){
+  मान factor = गुणक(number);
+   यदि (कुल(factor) == 2) {
+      फल सत्य;
+   }
+   अथ {
+     फल असत्य;
+   }
+}
+वद(अभाज्य_संख्या(1001));
