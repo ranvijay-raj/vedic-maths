@@ -213,7 +213,7 @@
     अनुमान = (अनुमान + (x / अनुमान)) / 2;
   }
 
-  फल अनुमान
+  फल अनुमान;
 } 
 
 #a function which calculates factorial
@@ -374,3 +374,4 @@
 
   फल 1 / sin_val;
 }
+  
