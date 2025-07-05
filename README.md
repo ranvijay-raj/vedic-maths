@@ -6,23 +6,6 @@ This library provides functions for incrementing, decrementing, checking primes,
 
 ---
 
-## 📁 Functions Included
-
-| Function Name                   | Description                                               |
-| ------------------------------- | --------------------------------------------------------- |
-| `एकाधिकेन(अंक)`                 | Increases the given number by 1.                          |
-| `एकन्यूनेन(अंक)`                | Decreases the given number by 1.                          |
-| `संख्या_युग्म(अंक)`             | Checks whether the number is even.                        |
-| `संख्या_अयुग्म(अंक)`            | Checks whether the number is odd.                         |
-| `संख्या_भाग(dividend, divisor)` | Divides one number by another.                            |
-| `मिश्रधन(मूलधन, दर, समय)`       | Calculates simple interest amount.                        |
-| `घातक(आधार, घातांक)`            | Raises base to the given power (exponentiation).          |
-| `परस्परम(संख्या)`               | Returns the reciprocal of a number.                       |
-| `गुणक(संख्या)`                  | Returns all the factors of a number in a list.            |
-| `अभाज्य_संख्या(संख्या)`         | Returns `सत्य` if the number is prime, otherwise `असत्य`. |
-
----
-
 ## 🧪 Usage
 
 ### 📅 1. Save the Library
